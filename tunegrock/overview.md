@@ -6,50 +6,93 @@
 
 ## Overview
 
-TuneGrock is a music-industry platform being developed to help independent artists manage and grow their music careers through a connected digital workspace.
+TuneGrock is a fan-powered artist growth and music discovery platform designed for independent musicians, particularly focused on spotlighting underground pioneers and emerging Afrobeat talents.
 
-## Problem
+Launched in 2025, TuneGrock brings music discovery, artist development and fan engagement together in one connected platform. It gives independent artists tools to share their music, grow their audience, connect with listeners and receive direct support from fans.
 
-Independent artists often rely on disconnected tools and services to manage different parts of their careers. TuneGrock is intended to bring important career workflows into one platform.
+## Core Features
 
-## My role
+### Music Discovery & Radio
 
-**Founder and product developer**
+- Discover independent and emerging musicians.
+- 24/7 independent music radio.
+- Explore artists and music across the platform.
 
-I lead product direction and hands-on software development, translating product requirements into application features and technical implementation.
+### Artist Hub
+
+- Artist accounts and profiles.
+- Music uploads and artist presence.
+- Tools to build an audience and connect with listeners.
+
+### Fan Support
+
+- Direct fan-to-artist support.
+- Fan funding mechanisms that help artists finance their creative work.
+
+### Artist Growth
+
+- Tools and features designed to help independent musicians develop their careers and reach new listeners.
+
+### TuneGrock AI
+
+An AI-powered creative and marketing assistant integrated into the TuneGrock ecosystem.
+
+Available tools:
+
+- Caption Generator.
+- Hook Ideas.
+- Songwriting Assistant.
+
+**Technology:** Google Genkit and Google Gemini, with credit-based usage management and Firestore usage tracking.
 
 ## Technologies
 
 - Next.js
 - React
 - TypeScript
-- Firebase / Firestore
+- Firebase
+- Cloud Firestore
 - Tailwind CSS
-- REST APIs
-- Payment integration experience (Paystack)
+- Google Genkit
+- Google Gemini
 
-> Confirm which of these technologies are used in the current production implementation before publishing this page.
+## My Role
 
-## Engineering work to document
+**Founder and Full-Stack Product Developer**
 
-Add concrete examples of work personally implemented, such as:
-- Authentication and account flows
-- Firestore data modelling and security rules
-- Artist-facing dashboards and career workflows
-- API integrations and payment flows
-- Admin tools, validation and error handling
+I lead product direction and hands-on software development, working across application architecture, frontend development, backend integrations, database workflows and feature implementation.
 
-Only retain items that are implemented and that you can confidently explain in an interview.
+## Engineering Work
 
-## Technical challenges and decisions
+Areas of development include:
 
-_Add 2–3 specific examples. Explain the problem, the approach you took, and the trade-off or result. Avoid exposing private architecture, credentials, or security-sensitive implementation details._
+- Full-stack application development.
+- Artist-facing interfaces and workflows.
+- Firebase and Firestore integration.
+- AI integration using Google Genkit and Gemini.
+- Credit-based AI usage management.
+- Third-party service integrations.
 
-## Screenshots and demo
+## Technical Challenges and Decisions
 
-Place approved product screenshots in `screenshots/`. Use redacted demo data; do not include real user information or private admin screens.
+This section will document specific engineering challenges, architectural decisions and implementation trade-offs encountered while building and maintaining TuneGrock.
+
+## Screenshots and Demo
+
+Product screenshots will be added to the `screenshots/` directory.
+
+Screenshots should use demonstration data and must not expose private user information, credentials or sensitive administrative interfaces.
+
+## Project Status
+
+**Publicly launched in 2025.**
+
+TuneGrock is a live product with its core platform features available.
 
 ## Links
 
 - Product: https://tunegrock.com/
-- Developer portfolio: https://builtbysunny.web.app/
+- Developer Portfolio: https://builtbysunny.web.app/
+- GitHub: https://github.com/starblackmedia
+
+*This repository documents the product and selected engineering work. Proprietary application source code remains private.*
