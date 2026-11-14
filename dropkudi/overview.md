@@ -2,53 +2,150 @@
 
 **Send Gifts. Receive Love.**
 
-[Visit DropKudi](https://dropkudi.com/) · [Portfolio](https://builtbysunny.web.app/)
+[Visit DropKudi](https://dropkudi.com/) · [Developer Portfolio](https://builtbysunny.web.app/)
 
 ## Overview
 
-DropKudi is a gifting platform for birthdays, weddings, celebrations and creator support. It gives people a way to share a personal gifting link and receive gifts from their community.
+DropKudi is a digital gifting platform designed for birthdays, weddings, celebrations and creator support.
+
+It provides users with a simple way to create and share personal gifting links, allowing friends, family and supporters to send gifts remotely.
+
+The platform brings gifting, payment processing, recipient dashboards and wallet management together in one connected experience.
 
 ## Problem
 
-People celebrating important moments may want a simple way for friends, family and supporters to send a gift remotely. DropKudi is designed to make that experience straightforward.
+Celebrating important moments often involves coordinating gifts across different locations and payment channels.
 
-## My role
+For independent creators and individuals, receiving gifts and support from their communities can also be inconvenient.
 
-**Founder and product developer**
+DropKudi addresses this by providing a dedicated platform where users can create gifting pages, share their links and receive gifts online.
 
-I lead product direction and hands-on development, including the gifting experience and payment-related workflows.
+## Core Features
 
-## Technologies and integrations
+### Personal Gifting Pages
+
+- Create personal gifting pages.
+- Share unique gifting links.
+- Receive gifts from friends, family and supporters.
+- Support gifting for birthdays, weddings and other celebrations.
+
+### Gift Checkout
+
+- Online gift selection and checkout.
+- Integrated payment processing.
+- Transaction status handling.
+- Payment confirmation workflows.
+
+### Dashboard
+
+- User account dashboard.
+- Gifting activity and transaction visibility.
+- Account and gifting management.
+
+### Draft Studio
+
+- Tools for preparing and managing gifting content.
+- Create and organize gifting experiences before publishing.
+
+### User Profiles
+
+- Personal user profiles.
+- Account information and profile management.
+
+### Wallet & Withdrawals
+
+- Wallet balance management.
+- Transaction history.
+- Withdrawal requests.
+- Bank payout workflows.
+- Withdrawal status tracking.
+
+## Technologies and Integrations
 
 - Next.js
 - React
 - TypeScript
-- Firebase / Firestore
+- Firebase
+- Cloud Firestore
 - Tailwind CSS
-- Paystack and Flutterwave integration experience
+- Paystack
+- Flutterwave
+- REST APIs
 
-> Verify the exact production stack and which payment integrations are currently active before publishing.
+## My Role
 
-## Engineering work to document
+**Founder and Full-Stack Product Developer**
 
-Add specific examples of implemented work, such as:
-- Gift page creation and sharing flows
-- Payment initiation and payment verification
-- Transaction status handling
-- Internal ledger and payout workflow design
-- Account, profile and admin experiences
+I lead product direction and hands-on software development, working across application architecture, frontend development, backend integrations, payment workflows, database operations and platform features.
 
-Clearly distinguish live functionality from planned functionality. Do not publish secret keys, webhook secrets, bank details, private transaction records, or sensitive payout logic.
+## Engineering Work
 
-## Technical challenges and decisions
+Key areas of development include:
 
-_Add 2–3 examples describing a real technical challenge, your solution, and the outcome. Keep payment-security details high-level._
+- Full-stack application development.
+- Gifting page creation and sharing workflows.
+- Payment initiation and verification.
+- Payment transaction status management.
+- Wallet and withdrawal functionality.
+- Firebase and Firestore data management.
+- Payment provider integrations.
+- User dashboards and profile management.
+- Administrative and platform management workflows.
 
-## Screenshots and demo
+## Payment and Wallet Architecture
 
-Add approved screenshots to `screenshots/`. Use test or redacted data only.
+DropKudi integrates payment providers to support online gifting transactions and recipient payouts.
+
+The platform also implements wallet management and withdrawal workflows to help users manage funds received through gifting.
+
+Sensitive payment credentials, private transaction records and internal security implementation details are intentionally excluded from this public documentation.
+
+## Technical Challenges and Decisions
+
+This section will document specific engineering challenges, architectural decisions and implementation trade-offs encountered while building and maintaining DropKudi.
+
+Examples will focus on payment verification, transaction consistency, wallet accounting and withdrawal processing without exposing security-sensitive implementation details.
+
+## Screenshots and Demo
+
+### Homepage
+
+![DropKudi Homepage](screenshots/homepage.png)
+
+### Personal Gifting Page
+
+![DropKudi Gifting Page](screenshots/gifting-page.png)
+
+### Gift Checkout
+
+![DropKudi Checkout](screenshots/checkout.png)
+
+### User Dashboard
+
+![DropKudi Dashboard](screenshots/dashboard.png)
+
+### Draft Studio
+
+![DropKudi Draft Studio](screenshots/draft-studio.png)
+
+### User Profile
+
+![DropKudi User Profile](screenshots/user-profile.png)
+
+### Wallet
+
+![DropKudi Wallet](screenshots/wallet.png)
+
+## Project Status
+
+**Live product.**
+
+DropKudi is publicly launched and provides working gifting, payment, dashboard, wallet and withdrawal functionality.
 
 ## Links
 
 - Product: https://dropkudi.com/
-- Developer portfolio: https://builtbysunny.web.app/
+- Developer Portfolio: https://builtbysunny.web.app/
+- GitHub: https://github.com/starblackmedia
+
+*This repository documents the product and selected engineering work. Proprietary application source code and sensitive payment implementation details remain private.*
