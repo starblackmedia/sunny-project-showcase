@@ -95,4 +95,26 @@ TuneGrock is a live product with its core platform features available.
 - Developer Portfolio: https://builtbysunny.web.app/
 - GitHub: https://github.com/starblackmedia
 
+## Screenshots
+
+### Homepage
+
+![TuneGrock Homepage](screenshots/homepage.png)
+
+### Artist Profile
+
+![Artist Profile](screenshots/artist-profile.png)
+
+### Music Discovery
+
+![Music Discovery](screenshots/music-discovery.png)
+
+### Artist Dashboard
+
+![Artist Dashboard](screenshots/artist-dashboard.png)
+
+### TuneGrock AI
+
+![TuneGrock AI](screenshots/tunegrock-ai.png)
+
 *This repository documents the product and selected engineering work. Proprietary application source code remains private.*
