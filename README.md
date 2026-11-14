@@ -1,35 +1,81 @@
-# Sunny — Project Showcase
+# Sunday J. — Project Showcase
 
-A collection of selected products I have designed and developed as a full-stack product developer.
+A collection of selected web and mobile products I've designed, developed, and brought to life as a full-stack product developer.
 
-This repository documents the problems each product addresses, my role, the technologies involved, key engineering decisions, and links to live demos or additional product information where available.
+This repository highlights the products I've built, the problems they solve, the technologies behind them, and selected screenshots of their interfaces.
 
-> **Source-code note:** The original application repositories are private. This repository is a public-facing portfolio of selected work; it does not contain proprietary application source code, credentials, customer data, or private infrastructure details.
+## Selected Projects
 
-## Selected projects
+### 1. TuneGrock
 
-| Project | What it does | Technologies |
-|---|---|---|
-| [TuneGrock](./tunegrock/overview.md) | A platform for independent music careers | Next.js, React, TypeScript, Firebase/Firestore, Tailwind CSS |
-| [DropKudi](./dropkudi/overview.md) | A gifting platform for celebrations and creator support | Next.js, React, TypeScript, Firebase/Firestore, payment integrations |
-| [Proofen](./proofen/overview.md) | An idea registry for recording, verifying and publishing ideas | Add confirmed stack |
-| [IronLockBox](./ironlockbox/overview.md) | A creator-focused storage application | Flutter, Dart |
+**A fan-powered music discovery and artist growth platform for independent musicians.**
 
-## About me
+TuneGrock helps independent artists build their presence, share their music, connect with fans, and grow their careers. The platform combines music discovery, artist tools, fan support, and AI-powered creative assistance.
 
-I'm Sunday J., a self-taught full-stack product developer and founder building web and mobile products. My work includes product development, frontend and backend implementation, database design, API integrations, and payment workflows.
+- **Live product:** https://tunegrock.com/
+- **Case study:** [View TuneGrock project](tunegrock/overview.md)
+- **Technologies:** Next.js, React, TypeScript, Firebase, Cloud Firestore, Tailwind CSS, Google Genkit, Google Gemini, Paystack.
+
+### 2. DropKudi
+
+**A digital gifting platform for celebrations and creator support.**
+
+DropKudi enables people to receive gifts through personalized gifting pages and shareable links. The platform supports live gift payments, user dashboards, wallet management, and withdrawal workflows, providing a complete digital gifting experience.
+
+- **Live product:** https://dropkudi.com/
+- **Case study:** [View DropKudi project](dropkudi/overview.md)
+- **Technologies:** Next.js, React, TypeScript, Firebase, Cloud Firestore, Tailwind CSS, Flutterwave, REST APIs.
+
+### 3. Proofen
+
+**An AI-powered idea registry for recording, verifying, and tracking original ideas.**
+
+Proofen gives creators and innovators a structured way to register ideas, generate unique Proof IDs, publish entries to a public registry, and track their progress from registration to completion. It also includes AI-powered assistance for structuring ideas and developing their positioning.
+
+- **Live product:** https://useproofen.com/
+- **Case study:** [View Proofen project](proofen/overview.md)
+- **Technologies:** Next.js, React, TypeScript, Firebase, Cloud Firestore, Tailwind CSS, OpenAI GPT.
+
+### 4. IronLockBox
+
+**A secure digital vault built for music creators.**
+
+IronLockBox helps musicians and creative professionals organize and protect important digital assets, including audio files, stems, lyrics, contracts, artwork, and other project materials. The application includes end-to-end encryption, secure file storage, vault organization, file uploads, and account management.
+
+- **Live application:** https://app.ironlockbox.com/
+- **Case study:** [View IronLockBox project](ironlockbox/overview.md)
+- **Technologies:** Flutter, Dart, Firebase, Cloud Firestore, Firebase Authentication, Firebase Storage, Firebase Cloud Functions, Paystack.
+
+## About Me
+
+I'm Sunday J., a self-taught full-stack product developer and founder. I enjoy turning ideas into functional digital products, working across frontend and backend development, database design, API integrations, payment workflows, and AI-powered features.
+
+My experience comes from building and maintaining real products, solving practical development challenges, and taking projects from concept to implementation.
+
+### Technical Focus
+
+- **Frontend:** React, Next.js, TypeScript, Tailwind CSS
+- **Backend & Data:** Firebase, Cloud Firestore, REST APIs
+- **Mobile Development:** Flutter, Dart
+- **Payment Integrations:** Paystack, Flutterwave
+- **AI Development:** OpenAI GPT, Google Gemini, Google Genkit
+- **Product Development:** UI implementation, database design, application architecture, and feature development
+
+### Links
 
 - **Portfolio:** https://builtbysunny.web.app/
 - **GitHub:** https://github.com/starblackmedia
-- **Focus:** Full-stack development, React, Next.js, TypeScript, Firebase, Flutter and API integrations
-- **Location:** Nigeria — open to eligible remote opportunities
+- **Location:** Nigeria
+- **Opportunities:** Open to suitable remote full-stack and software development opportunities.
 
-## Notes for reviewers
+## About This Repository
 
-- Project descriptions distinguish implemented features from planned or future work.
-- Screenshots should be added only when they are safe to share and do not expose personal information, customer data, credentials, or internal admin details.
-- Technology lists should be updated to reflect the actual implementation of each project.
+This is a public portfolio repository containing selected project documentation and screenshots.
+
+The original application source-code repositories are private. No proprietary source code, credentials, customer data, or private infrastructure details are published here.
+
+Each project case study provides an overview of the product, its features, technologies, and selected interface screenshots.
 
 ## Contact
 
-For professional enquiries, please use the contact details on my [portfolio](https://builtbysunny.web.app/).
+For professional enquiries and collaborations, please visit my [developer portfolio](https://builtbysunny.web.app/).
